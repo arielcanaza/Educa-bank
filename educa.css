@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: rgb(66, 64, 214);
+    padding: 90px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.menu li a:hover{
+    color: black;
+    transition: 1s;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+/*SECTION*/
+
+.sesao{
+    background-color: aqua;
+    padding: 200px;
+}
+
+h1{
+    font-size: 40px;
+}
+.sesao p {
+    font-size: 30px;
+}
