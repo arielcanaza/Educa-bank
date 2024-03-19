@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -14,7 +15,7 @@
 }
 .menu li a:hover{
     color: black;
-    transition: 1s;
+    transition: 0,8s;
 }
 .menu{
     list-style: none;
@@ -24,14 +25,54 @@
 
 /*SECTION*/
 
-.sesao{
+#sesao{
     background-color: aqua;
     padding: 200px;
 }
 
-h1{
+h2{
     font-size: 40px;
 }
-.sesao p {
+#sesao p {
     font-size: 30px;
 }
+
+/*botao*/
+
+.botao{
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.botao a{
+    text-decoration: none;
+    color: blue;
+}
+
+/*sesao 2*/
+.esq{
+    font-size: 35px;
+}
+.esq a{
+    text-decoration: none;
+    color: aqua;
+    background-color: rgb(185, 104, 104);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#sesao2{
+    display: flex;
+    padding: 250px;
+}
+
+
+/*sesao 3*/
+.educa{
+    text-align: center;
+}
+
+
+
+
