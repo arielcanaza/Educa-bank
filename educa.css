@@ -52,21 +52,21 @@ h2{
 
 /*sesao 2*/
 .esq{
-    font-size: 35px;
+    font-size: 45px;
 }
 .esq a{
     text-decoration: none;
     color: aqua;
     background-color: rgb(185, 104, 104);
-    padding: 10px;
+    padding: 13px;
     border-radius: 20px;
 }
 
 #sesao2{
     display: flex;
     padding: 250px;
+    text-align: center;
 }
-
 
 /*sesao 3*/
 .educa{
