@@ -26,53 +26,51 @@
 /*SECTION*/
 
 #sesao{
-    background-color: aqua;
-    padding: 200px;
+    background: linear-gradient();
+    padding: 3em;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2.5em
 }
 #sesao p {
-    font-size: 30px;
+    font-size: 3em
+    
+    ;
 }
 
 /*botao*/
 
 .botao{
-    margin-top: 15px;
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 10px;
+    padding: 22px;
+    border-radius: 50px;
+    border-color: rgb(19, 153, 108);
+    width: 20em;
+    cursor: pointer;
 }
 .botao a{
     text-decoration: none;
-    color: blue;
+    color: rgb(19, 153, 108)
 }
 
 /*sesao 2*/
-.esq{
-    font-size: 45px;
-}
-.esq a{
-    text-decoration: none;
-    color: aqua;
-    background-color: rgb(185, 104, 104);
-    padding: 13px;
-    border-radius: 20px;
-}
 
 #sesao2{
+    padding: 15rem;
+    background-color: rgb(223, 233, 233);
     display: flex;
-    padding: 250px;
-    text-align: center;
+    justify-content: space-around;
 }
+ image{
+    width: 25rem ;
+    height: 25rem ;
+    margin-left: 50px;
+    margin-top: -70px;
+ }
 
-/*sesao 3*/
-.educa{
-    text-align: center;
-}
-
-
+ div p {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+ }
 
 
