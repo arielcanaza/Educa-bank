@@ -26,7 +26,7 @@ header { /*Chamamos nosso Header para estilização*/
 .menu-header > li > a { /*Aqui sabemos que dentro da nossa LI existe uma TAG de Link "a" */
    color: white; /*Cor da letra*/
    text-decoration: none; /*Desabilitando a decoração dos textos de Link*/
-   font-size: 13px; /*Tamanho da letra*/
+   font-size: 1rem; /*Tamanho da letra*/
 }
 
 .menu-header > li > a:hover { /*Efeito ao passar o cursor*/
@@ -57,7 +57,7 @@ header { /*Chamamos nosso Header para estilização*/
 #sessao a{ /*Chamamos nosso Button que está dentro dessa primeira sessão*/
     padding: 20px; /*Tamanho do preenchimento interno do botão*/
     border-radius: 50px; /*Borda arredondada do botão*/
-    width: 20vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
+    width: 1vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
     cursor: pointer;
     border-color: rgb(19, 153, 108); /*Cor da borda*/
     margin: 30px; /*Margem em volta do Button*/
@@ -93,7 +93,7 @@ header { /*Chamamos nosso Header para estilização*/
 #app > div > button { /*Aqui chamamos nosso botão para estilização*/
     padding: 20px; /*Preenchimento do nosso botão*/
     border-radius: 50px; /*Arredondamento da borda do botão*/
-    width: 20vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
+    width: 15vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
     color: rgb(19, 153, 108); /*Aqui atribuimos uma cor a letra do botão*/
     border-color: rgb(19, 153, 108); /*Cor da borda*/
     margin: 30px; /*Margem em volta do Button*/
@@ -157,18 +157,17 @@ header { /*Chamamos nosso Header para estilização*/
     text-align: justify; /*Aqui justificamos o texto*/
 }
 
-#container .text1 { /*Aqui chamamos a class de um dos nossos P que terá confi diferente*/
-    text-align: center; /*Alinhando ao centro*/
+#container .text1 { 
+    text-align: center; 
 }
 
-#container button { /*Chamamos nosso Button para alteração*/
-    padding: 20px; /*Preenchimento do Botão*/
-    border-radius: 50px; /*Arredondamento da borda do botão*/
-    width: 15vw; /*Largura do botão*/
-    color: rgb(50, 50, 226); /*Cor da letra*/
-    border-color: rgb(50, 50, 226); /*Cor da borda*/
-    margin: 60px; /*Margem em torno no botão*/
-    font-size: 15px; /*Tamanho da letra*/
+#container button { 
+    padding: 20px;
+    width: 15vw; 
+    color: rgb(50, 50, 226);
+    border-color: rgb(50, 50, 226); 
+    margin: 60px; 
+    font-size: 15px; 
     
 }
 
@@ -183,55 +182,50 @@ header { /*Chamamos nosso Header para estilização*/
     transition: 0.8s;
 }
 
-#container button:hover { /*Cor do botão ao passar o cursor*/
-    background-color: rgb(50, 50, 226); /*Cor de fundo*/
-    color: white; /*Cor da letra*/
-    border-color: white; /*Cor da letra*/
+#container button:hover { 
+    background-color: rgb(50, 50, 226); 
+    color: white; 
+    border-color: black; 
     transition: 0.7s;
     cursor: pointer;
 }
-
-.line { /*Class usada para nossa Tag HR*/
-    margin: 0 auto; /*Margem zerada e automatica*/
-    width: 70%; /*Tamanho da linha*/
+.line { 
+    margin: 0 auto;
+    width: 70%; 
 }
 
-#container img { /*Imagem dentro da nossa Terceira section*/
-    margin-left: 10vw; /*Margem a esquerda*/
-    margin-top: 30px; /*Margem superior*/
-    width: 50vw; /*Largura da imagem*/
+#container img { 
+    margin-left: 10vw; 
+    margin-top: 4rem;
+    width: 50vw; 
 }
 
-#container-cofre { /*Aqui começamos a estilizar nossa quarta section*/
-   background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg); /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
-   background-position: center; /*posicionamento da imagem*/
-   background-attachment: fixed; /*Posicionamento fixo da imagem*/
-   padding: 10%; /*altura da section*/
-   display: flex; /*Habilitando os itens lado a lado*/
-   align-items: center; /*Alinhando os itens ao centro*/
-   justify-content: space-evenly;
+#container-cofre { 
+   background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg); 
+   padding: 10%; 
+   display: flex;
+   align-items: center;
 }
 
 
-#container-cofre img { /*Chamamos nossa IMG para estilização*/
-    width: 25vw; /*Largura da img*/
-    margin-top: 10rem; /*Margem superior*/
+#container-cofre img { 
+    width: 25vw; 
+    margin-top: 10rem; 
     height: auto;
-    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+    flex-wrap: wrap; 
 }
 
-#container-cofre h2 { /*Chamamos nossa TAG H2 para estilização*/
+#container-cofre h2 { 
     
-    color: white; /*Cor da letra*/
-    font-size: 30px; /*Tamanho da letra*/
+    color: white;
+    font-size: 30px; 
     text-align: center;
 }
 
-#container-cofre p { /*Nossa Tag de parágrafo para estilização*/
-    color: white; /*Cor da letra*/
-    font-size: 17px; /*Tamanho da letra*/
+#container-cofre p { 
+    font-size: 17px; 
     text-align: center;
-    margin-top: 2rem; /*margem superior*/
+    margin-top: 2rem; 
    
 }
 
@@ -271,32 +265,53 @@ footer div a:hover{
 
 /* responsividade (dimenção da tela como celulares */
 
-@media screen and (max-width: 991px) {
-    #sessao a button{
-        width: 14rem;
-        padding: 0.9rem;
 
+@media screen and (max-width: 1366px){
+    header{
+        padding: 6rem;
     }
-    #sessao p{
-        font-size: 1.5rem;
-        margin: 15px 0;
-    }
-    #app div a button{
-        width: 17rem;
-        padding: 0.9rem;
+    #sessao{
+        padding: 14vh;
     }
     #app{
-        padding: 30vh;
+        padding: 14vh;
     }
-    #app div p{
-        font-size: ;
+    #app div img{
+        height: 25vh;
+        width: 20vh;
+    }
+    #container{
+        padding: 15vh;
+    }
+    #container button{
+        padding: 15px;
+        width: 13vw;
+    }
+    .line{
+        margin-top: 1.5rem;
+    }
+    #container img{
+        margin-left: 5vw;
+        width: 45vw;
+    }
+    #container-cofre{
+        padding: 7.5%;
+    }
+    #container-cofre img{
+        width: 22vw;
+    }
+    .esq{
+        margin-left: 5rem;
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 1920px){
-
-}
-@media screen and (max-width: 1366px){
+    
 
 }
 @media screen and (max-width: 991px){
